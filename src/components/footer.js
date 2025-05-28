@@ -45,7 +45,7 @@ const Footer =()=>{
         <input
           type="text"
           placeholder="Enter Name"
-          className="w-[500px] h-[70px] rounded-3xl border border-gray-400 px-10 py-2  focus:ring-[#6E38FD] bg-[#191934] text-white"
+ className="w-full max-w-[500px] h-[60px] sm:h-[65px] md:h-[70px] rounded-3xl border border-gray-400 px-6 sm:px-8 md:px-10 py-2 focus:ring-[#6E38FD] bg-[#191934] text-white placeholder:text-gray-300"
         />
       </div>
   
@@ -59,7 +59,7 @@ const Footer =()=>{
         <input
           type="email"
           placeholder="Enter Email"
-          className="w-[500px] h-[70px]  rounded-3xl border border-gray-400 px-10 py-2  focus:ring-[#6E38FD] bg-[#191934] text-white"
+           className="w-full max-w-[500px] h-[60px] sm:h-[65px] md:h-[70px] rounded-3xl border border-gray-400 px-6 sm:px-8 md:px-10 py-2 focus:ring-[#6E38FD] bg-[#191934] text-white placeholder:text-gray-300"
         />
       </div>
     </div>

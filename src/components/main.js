@@ -57,12 +57,10 @@ const Main=()=>{
 
 </div>
 <div className="bg-[#12203A] max-w-full w-[1163px] rounded-3xl h-[642px] mx-auto mt-20 flex flex-wrap items-center">
-  {/* Left side - image with margin top */}
   <div className="mt-20 flex justify-center w-full md:w-auto">
     <img src={message} alt="message" className="" />
   </div>
 
-  {/* Right side - text and inputs */}
 <div className="flex flex-col w-full md:w-auto md:ml-12 space-y-6 max-w-md mx-auto">
  <p className="text-xl text-white font-semibold max-w-lg text-center -mt-4">
   Join Us For The LIVE Reveal Of AISellers On <span className="font-bold">[Date Here]</span> at 10:00 am EST &amp; Win a FREE Copy + $150!
@@ -70,7 +68,7 @@ const Main=()=>{
 
 
   <div className="flex flex-col space-y-4">
-    {/* Name Input with Profile Icon */}
+    
     <div className="relative">
       <img
         src={profile}
@@ -80,7 +78,7 @@ const Main=()=>{
       <input
         type="text"
         placeholder="Enter Name"
-        className="w-[500px] h-[70px] rounded-3xl border border-gray-400 px-10 py-2  focus:ring-[#6E38FD] bg-[#191934] text-white"
+         className="w-full max-w-[500px] h-[60px] sm:h-[65px] md:h-[70px] rounded-3xl border border-gray-400 px-6 sm:px-8 md:px-10 py-2 focus:ring-[#6E38FD] bg-[#191934] text-white placeholder:text-gray-300"
       />
     </div>
 
@@ -91,15 +89,16 @@ const Main=()=>{
         alt="email icon"
         className="absolute left-3 top-1/2 transform -translate-y-1/2 w-5 h-5 opacity-50 pointer-events-none"
       />
-      <input
-        type="email"
-        placeholder="Enter Email"
-        className="w-[500px] h-[70px]  rounded-3xl border border-gray-400 px-10 py-2  focus:ring-[#6E38FD] bg-[#191934] text-white"
-      />
+  <input
+  type="email"
+  placeholder="Enter Email"
+  className="w-full max-w-[500px] h-[60px] sm:h-[65px] md:h-[70px] rounded-3xl border border-gray-400 px-6 sm:px-8 md:px-10 py-2 focus:ring-[#6E38FD] bg-[#191934] text-white placeholder:text-gray-300"
+/>
+
     </div>
   </div>
 
-  {/* Button */}
+
   <button className="bg-[#6E38FD] hover:bg-[#582bd1] text-white font-bold rounded-full px-6 py-3 mt-2 max-w-md w-full transition">
     SIGN UP NOW FOR THE BIG REVEAL!
   </button>
