@@ -1,6 +1,7 @@
 import image from "../assets/Vector (1).png"
 import rectangle from "../assets/Rectangle 34627026.png"
 import laptop from "../assets/Laptop-Screen-mockup 1.png"
+import ai from "../assets/AI SELLERS 2.0.png"
 
 const Header = () => {
   return (
@@ -16,9 +17,11 @@ const Header = () => {
           {/* Logo & Title */}
           <div className="flex items-center gap-2">
             <img src={image} alt="logo" className="h-[60px] w-[60px] sm:h-[80px] sm:w-[80px]" />
-            <div className="bg-clip-text  bg-gradient-to-r from-[#B549FF] to-[#7185FF] font-black text-xl sm:text-2xl">
-  AI SELLERS 2.0
+
+<div className="w-full flex justify-center px-4">
+  <img src={ai} alt="AI" className="w-full max-w-[500px] h-auto object-contain" />
 </div>
+
 
           </div>
 
