@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/AISeller/static/css/main.ade9f33d.css",
-    "main.js": "/AISeller/static/js/main.e07a9a08.js",
+    "main.css": "/AISeller/static/css/main.16f57537.css",
+    "main.js": "/AISeller/static/js/main.49bca305.js",
     "static/js/453.bf2285a0.chunk.js": "/AISeller/static/js/453.bf2285a0.chunk.js",
     "static/media/Laptop-Screen-mockup 1.png": "/AISeller/static/media/Laptop-Screen-mockup 1.e6263ebcef9dc2653594.png",
     "static/media/image2.png": "/AISeller/static/media/image2.aee2b9dc1c68bcb728e6.png",
@@ -16,12 +16,12 @@
     "static/media/Mask group (1).png": "/AISeller/static/media/Mask group (1).9f516c42292ab294501f.png",
     "static/media/logo.svg": "/AISeller/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/AISeller/index.html",
-    "main.ade9f33d.css.map": "/AISeller/static/css/main.ade9f33d.css.map",
-    "main.e07a9a08.js.map": "/AISeller/static/js/main.e07a9a08.js.map",
+    "main.16f57537.css.map": "/AISeller/static/css/main.16f57537.css.map",
+    "main.49bca305.js.map": "/AISeller/static/js/main.49bca305.js.map",
     "453.bf2285a0.chunk.js.map": "/AISeller/static/js/453.bf2285a0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ade9f33d.css",
-    "static/js/main.e07a9a08.js"
+    "static/css/main.16f57537.css",
+    "static/js/main.49bca305.js"
   ]
 }
