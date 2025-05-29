@@ -56,56 +56,50 @@ const Main=()=>{
 
 
 </div>
-<div className="bg-[#12203A] max-w-full w-[1163px] rounded-3xl h-[642px] mx-auto mt-20 flex flex-wrap items-center">
-  <div className="mt-20 flex justify-center w-full md:w-auto">
-    <img src={message} alt="message" className="" />
+<div className="bg-[#12203A] w-full max-w-[1163px] rounded-3xl mx-auto mt-20 px-4 py-10 flex flex-col lg:flex-row items-center gap-10">
+  <div className="flex justify-center w-full lg:w-1/2">
+    <img src={message} alt="message" className="max-w-full h-auto" />
   </div>
 
-<div className="flex flex-col w-full md:w-auto md:ml-12 space-y-6 max-w-md mx-auto">
- <p className="text-xl text-white font-semibold max-w-lg text-center -mt-4">
-  Join Us For The LIVE Reveal Of AISellers On <span className="font-bold">[Date Here]</span> at 10:00 am EST &amp; Win a FREE Copy + $150!
-</p>
+  {/* Form Section */}
+  <div className="flex flex-col items-center lg:items-start w-full lg:w-1/2 space-y-6">
+    <p className="text-xl text-white font-semibold text-center lg:text-left">
+      Join Us For The LIVE Reveal Of AISellers On <span className="font-bold">[Date Here]</span> at 10:00 AM EST &amp; Win a FREE Copy + $150!
+    </p>
 
-
-  <div className="flex flex-col space-y-4">
-    
-    <div className="relative">
+    <div className="relative w-full">
       <img
         src={profile}
         alt="profile icon"
-        className="absolute left-3 top-1/2 transform -translate-y-1/2 w-5 h-5 opacity-50 pointer-events-none"
+        className="absolute left-4 top-1/2 transform -translate-y-1/2 w-5 h-5 opacity-50 pointer-events-none"
       />
       <input
         type="text"
         placeholder="Enter Name"
-         className="w-full max-w-[500px] h-[60px] sm:h-[65px] md:h-[70px] rounded-3xl border border-gray-400 px-6 sm:px-8 md:px-10 py-2 focus:ring-[#6E38FD] bg-[#191934] text-white placeholder:text-gray-300"
+        className="w-full h-[60px] sm:h-[65px] md:h-[70px] pl-12 pr-6 rounded-3xl border border-gray-400 bg-[#191934] text-white placeholder:text-gray-300 focus:ring-[#6E38FD] outline-none"
       />
     </div>
 
-    {/* Email Input with Email Icon */}
-    <div className="relative">
+    <div className="relative w-full">
       <img
         src={email}
         alt="email icon"
-        className="absolute left-3 top-1/2 transform -translate-y-1/2 w-5 h-5 opacity-50 pointer-events-none"
+        className="absolute left-4 top-1/2 transform -translate-y-1/2 w-5 h-5 opacity-50 pointer-events-none"
       />
-  <input
-  type="email"
-  placeholder="Enter Email"
-  className="w-full max-w-[500px] h-[60px] sm:h-[65px] md:h-[70px] rounded-3xl border border-gray-400 px-6 sm:px-8 md:px-10 py-2 focus:ring-[#6E38FD] bg-[#191934] text-white placeholder:text-gray-300"
-/>
-
+      <input
+        type="email"
+        placeholder="Enter Email"
+        className="w-full h-[60px] sm:h-[65px] md:h-[70px] pl-12 pr-6 rounded-3xl border border-gray-400 bg-[#191934] text-white placeholder:text-gray-300 focus:ring-[#6E38FD] outline-none"
+      />
     </div>
+
+    {/* Submit Button */}
+    <button className="bg-[#6E38FD] hover:bg-[#582bd1] text-white font-bold rounded-full px-6 py-4 w-full transition">
+      SIGN UP NOW FOR THE BIG REVEAL!
+    </button>
   </div>
-
-
-  <button className="bg-[#6E38FD] hover:bg-[#582bd1] text-white font-bold rounded-full px-6 py-3 mt-2 max-w-md w-full transition">
-    SIGN UP NOW FOR THE BIG REVEAL!
-  </button>
 </div>
 
-
-</div>
 <div className="mt-[80px] flex flex-col items-center text-center max-w-3xl mx-auto px-4 space-y-6">
   <div className="text-white text-lg">
     If You Still Need More Information To Make Your Decision... Keep Reading. But Be Aware: If You Take The Time To Read Every Word On This Page, All 1,000 Seats May Be Gone.&nbsp;<br/><br/>
